@@ -29,3 +29,59 @@ A lightweight, RESTful log monitoring solution built with **Python** and **Flask
 ## 🏗️ Architecture
 
 The application follows a modular design:
+┌─────────────┐ ┌──────────────┐ ┌─────────────┐
+│ Client │────▶│ Collector │────▶│ Storage │
+│ (App/CLI) │ │ (Flask) │ │ (JSON files)│
+└─────────────┘ └──────────────┘ └─────────────┘
+│
+▼
+┌─────────────┐
+│ API │
+│ Endpoints │
+└─────────────┘
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **Python 3.8+** | Core programming language |
+| **Flask** | Web framework for REST API |
+| **Docker** | Containerization and deployment |
+| **Git** | Version control |
+| **JSON** | Log storage format |
+
+---
+
+## 📁 Project Structure
+distributed-log-monitoring-tool/
+├── app/
+│ ├── init.py # Makes app a Python package
+│ ├── collector.py # Log collection logic
+│ └── api.py # Flask API endpoints
+├── logs/ # Stored log files (auto-generated)
+├── tests/ # Unit tests (coming soon)
+├── .gitignore # Files ignored by Git
+├── requirements.txt # Python dependencies
+├── Dockerfile # Docker configuration
+├── docker-compose.yml # Docker Compose setup
+├── LICENSE # MIT License
+└── README.md # This file
+
+---
+
+## 🚀 Getting Started (Windows Instructions)
+
+### Prerequisites
+
+- **Python 3.8+** ([Download](https://www.python.org/downloads/))
+- **Git** ([Download](https://git-scm.com/download/win))
+- **Docker Desktop** (optional, [Download](https://www.docker.com/products/docker-desktop/))
+
+### Installation & Local Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dianadesiree/distributed-log-monitoring-tool.git
+   cd distributed-log-monitoring-tool
