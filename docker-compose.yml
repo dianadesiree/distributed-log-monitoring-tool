@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  log-monitor:
+    build: .
+    container_name: log-monitor
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+    environment:
+      - FLASK_ENV=production
