@@ -31,7 +31,7 @@ A lightweight, RESTful log monitoring solution built with **Python** and **Flask
 ## Architecture Flow
 
     ┌──────────┐         ┌──────────┐         ┌──────────┐
-    │  Client  │ ──────▶ │Collector │ ──────▶ │ Storage  │
+    │  Client  │ ──────▶│Collector │ ──────▶ │ Storage  │
     │ (App/CLI)│         │ (Flask)  │         │(JSON)    │
     └──────────┘         └──────────┘         └──────────┘
                                │                    │
