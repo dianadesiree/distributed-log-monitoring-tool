@@ -102,16 +102,16 @@ distributed-log-monitoring-tool/
 
 4. **Test the API**
    ```bash
-# Health check
+   # Health check
 curl http://localhost:5000/api/health
 
-# Send a test log
+    # Send a test log
 curl -X POST http://localhost:5000/api/logs \
   -H "Content-Type: application/json" \
   -d '{"level": "INFO", "message": "Service started", "source": "test"}'
 
-# Retrieve logs
+    # Retrieve logs
 curl http://localhost:5000/api/logs
 
-# Get metrics
+    # Get metrics
 curl http://localhost:5000/api/metrics
