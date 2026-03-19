@@ -223,8 +223,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📬 Contact
 
-Diana Araujo
-https://img.shields.io/badge/LinkedIn-Connect-blue
-https://img.shields.io/badge/GitHub-Follow-black
+**Diana Araujo** 
+| | |
+|---|---|
+| 📧 **Email** | [dianadaraujo78@gmail.com](mailto:dianadaraujo78@gmail.com) |
+| 🔗 **LinkedIn** | [linkedin.com/in/dianadaraujo](https://www.linkedin.com/in/dianadaraujo) |
+| 🌐 **Portfolio** | [dianadesiree3.wixsite.com/my-site](https://dianadesiree3.wixsite.com/my-site) |
+| 🐙 **GitHub** | [github.com/dianadesiree](https://github.com/dianadesiree) |
+
+---
 
 **Note:** This tool is designed for educational purposes and learning about distributed systems, API design, and containerization. For production use, consider enterprise solutions like ELK Stack or Splunk.
