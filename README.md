@@ -115,3 +115,27 @@ distributed-log-monitoring-tool/
 
    # Get metrics
    curl http://localhost:5000/api/metrics
+
+## 🐳 Docker Deployment
+
+1. **Build the Docker image**
+   ```bash
+  docker build -t log-monitor .
+
+2. **Run with Docker**
+   ```bash
+   docker run -p 5000:5000 -v $(pwd)/logs:/app/logs log-monitor
+
+3. **Or use Docker Compose (recommended)**
+   ```bash
+   docker-compose up -d
+
+## 📚 API Documentation
+
+| Endpoint | Method | Description | Parameters |
+|------------|---------|
+| **/api/health** | GET | Service health check | None |
+| **/api/logs** | POST | Submit a new log | JSON body with log data |
+| **/api/logs** | GET | Retrieve logs | date, level, limit (query params) |
+| **/api/metrics** | GET | Get log statistics | None |
+| **/api/logs/{date}** | DELETE | Delete logs for a date | Date in YYYY-MM-DD format |
