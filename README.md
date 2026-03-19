@@ -192,3 +192,19 @@ pytest tests/
 - Create a simple frontend dashboard
 - Integrate with monitoring tools (Prometheus/Grafana) 
 - Add log rotation and retention policies
+
+## 📁 Project Structure
+
+```bash
+distributed-log-monitoring-tool/
+├── app/
+│   ├── __init__.py
+│   ├── collector.py      # Log collection logic
+│   └── api.py            # Flask API endpoints
+├── logs/                  # Stored log files (gitignored)
+├── tests/                 # Unit tests
+├── requirements.txt       # Python dependencies
+├── Dockerfile            # Docker configuration
+├── docker-compose.yml    # Docker Compose setup
+└── README.md             # This file
+ ```
