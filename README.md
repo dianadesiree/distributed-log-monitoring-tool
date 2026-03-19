@@ -223,14 +223,21 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📬 Contact
 
-**Diana Araujo**
+# Diana Araujo
 
-| | |
-|---|---|
-| 📧 **Email** | [dianadaraujo78@gmail.com](mailto:dianadaraujo78@gmail.com) |
-| 🔗 **LinkedIn** | [linkedin.com/in/dianadaraujo](https://www.linkedin.com/in/dianadaraujo) |
-| 🌐 **Portfolio** | [dianadesiree3.wixsite.com/my-site](https://dianadesiree3.wixsite.com/my-site) |
-| 🐙 **GitHub** | [github.com/dianadesiree](https://github.com/dianadesiree) |
+<div style="display: grid; grid-template-columns: auto 1fr; gap: 10px;">
+  <div>📧 <strong>Email:</strong></div>
+  <div>dianadaraujo78@gmail.com</div>
+  
+  <div>🔗 <strong>LinkedIn:</strong></div>
+  <div>linkedin.com/in/dianadaraujo</div>
+  
+  <div>🌐 <strong>Portfolio:</strong></div>
+  <div>dianadesiree3.wixsite.com/my-site</div>
+  
+  <div>🐙 <strong>GitHub:</strong></div>
+  <div>github.com/dianadesiree</div>
+</div>
 
 ---
 
