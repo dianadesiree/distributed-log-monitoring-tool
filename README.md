@@ -223,7 +223,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📬 Contact
 
-**Diana Araujo** 
+**Diana Araujo**
+
 | | |
 |---|---|
 | 📧 **Email** | [dianadaraujo78@gmail.com](mailto:dianadaraujo78@gmail.com) |
