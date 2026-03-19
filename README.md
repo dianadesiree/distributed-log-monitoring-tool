@@ -183,3 +183,12 @@ Run the tests (when implemented):
 ```bash
 pytest tests/
  ```
+
+## 🔧 Future Improvements
+
+- Add database backend (MongoDB/PostgreSQL) for persistent storage
+- Implement real-time WebSocket notifications for critical errors
+- Add authentication and rate limiting
+- Create a simple frontend dashboard
+- Integrate with monitoring tools (Prometheus/Grafana) 
+- Add log rotation and retention policies
