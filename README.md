@@ -119,8 +119,9 @@ distributed-log-monitoring-tool/
 ## 🐳 Docker Deployment
 
 1. **Build the Docker image**
-   ```bash
-  docker build -t log-monitor .
+    ```bash
+    docker build -t log-monitor .
+    ```
 
 2. **Run with Docker**
    ```bash
