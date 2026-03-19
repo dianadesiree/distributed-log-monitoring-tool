@@ -133,7 +133,7 @@ distributed-log-monitoring-tool/
 ## 📚 API Documentation
 
 | Endpoint | Method | Description | Parameters |
-|------------|---------|
+|----------|--------|-------------|------------|
 | **/api/health** | GET | Service health check | None |
 | **/api/logs** | POST | Submit a new log | JSON body with log data |
 | **/api/logs** | GET | Retrieve logs | date, level, limit (query params) |
