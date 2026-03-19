@@ -145,8 +145,9 @@ distributed-log-monitoring-tool/
 ---
 
 ## 📥 Example Log Format
-
-"level": "ERROR",
+```bash
+{
+  "level": "ERROR",
   "message": "Database connection timeout",
   "source": "payment-service",
   "context": {
@@ -154,3 +155,5 @@ distributed-log-monitoring-tool/
     "retry_count": 3
   },
   "timestamp": "2026-03-18T15:30:45.123Z"
+}
+ ```
