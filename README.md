@@ -225,6 +225,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Diana Araujo** 
 | | |
+|---|---|
 | 📧 **Email** | [dianadaraujo78@gmail.com](mailto:dianadaraujo78@gmail.com) |
 | 🔗 **LinkedIn** | [linkedin.com/in/dianadaraujo](https://www.linkedin.com/in/dianadaraujo) |
 | 🌐 **Portfolio** | [dianadesiree3.wixsite.com/my-site](https://dianadesiree3.wixsite.com/my-site) |
