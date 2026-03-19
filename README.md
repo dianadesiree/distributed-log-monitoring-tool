@@ -91,3 +91,27 @@ distributed-log-monitoring-tool/
    ```bash
    git clone https://github.com/dianadesiree/distributed-log-monitoring-tool.git
    cd distributed-log-monitoring-tool
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run the application**
+   ```bash
+   python -m app.api
+
+4. **Test the API**
+   ```bash
+# Health check
+curl http://localhost:5000/api/health
+
+# Send a test log
+curl -X POST http://localhost:5000/api/logs \
+  -H "Content-Type: application/json" \
+  -d '{"level": "INFO", "message": "Service started", "source": "test"}'
+
+# Retrieve logs
+curl http://localhost:5000/api/logs
+
+# Get metrics
+curl http://localhost:5000/api/metrics
