@@ -208,3 +208,11 @@ distributed-log-monitoring-tool/
 ├── docker-compose.yml    # Docker Compose setup
 └── README.md             # This file
  ```
+
+## 🤝 Contributing
+
+This is a personal learning project, but feedback and suggestions are welcome! Feel free to:
+
+- Open an issue for bugs or ideas
+- Fork the repository and experiment
+- Share your improvements via pull requests
