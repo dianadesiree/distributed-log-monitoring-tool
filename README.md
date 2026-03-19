@@ -60,19 +60,19 @@ A lightweight, RESTful log monitoring solution built with **Python** and **Flask
 
 ## 📁 Project Structure
 
-.
-|-- app/
-|   |-- __init__.py
-|   |-- collector.py
-|   |-- api.py
-|   |-- logs/
-|   |-- tests/
-|-- .gitignore
-|-- requirements.txt
-|-- Dockerfile
-|-- docker-compose.yml
-|-- LICENSE
-|-- README.md
+distributed-log-monitoring-tool/
+├── app/
+│ ├── init.py # Makes app a Python package
+│ ├── collector.py # Log collection logic
+│ ├── api.py # Flask API endpoints
+│ ├── logs/ # Stored log files (auto-generated)
+│ └── tests/ # Unit tests (coming soon)
+├── .gitignore # Files ignored by Git
+├── requirements.txt # Python dependencies
+├── Dockerfile # Docker configuration
+├── docker-compose.yml # Docker Compose setup
+├── LICENSE # MIT License
+└── README.md # This file
 
 ---
 
