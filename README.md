@@ -29,16 +29,20 @@ A lightweight, RESTful log monitoring solution built with **Python** and **Flask
 ## 🏗️ Architecture
 
 The application follows a modular design:
-┌─────────────┐ ┌──────────────┐ ┌─────────────┐
-│ Client │────▶│ Collector │────▶│ Storage │
-│ (App/CLI) │ │ (Flask) │ │ (JSON files)│
-└─────────────┘ └──────────────┘ └─────────────┘
-│
-▼
-┌─────────────┐
-│ API │
-│ Endpoints │
-└─────────────┘
+    ┌──────────┐         ┌──────────┐         ┌──────────┐
+    │  Client  │ ──────▶ │Collector │ ──────▶ │ Storage  │
+    │ (App/CLI)│         │ (Flask)  │         │(JSON)    │
+    └──────────┘         └──────────┘         └──────────┘
+                               │                    │
+                               │                    │
+                               ▼                    ▼
+                         ┌─────────────────────────────┐
+                         │       API Endpoints         │
+                         │  • POST /logs               │
+                         │  • GET /logs                │
+                         │  • GET /metrics             │
+                         │  • DELETE /logs/<date>      │
+                         └─────────────────────────────┘
 
 ---
 
