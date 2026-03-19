@@ -143,11 +143,9 @@ distributed-log-monitoring-tool/
 
 ---
 
-### 📥 Example Log Format
+## 📥 Example Log Format
 
-```json
-{
-  "level": "ERROR",
+"level": "ERROR",
   "message": "Database connection timeout",
   "source": "payment-service",
   "context": {
@@ -155,70 +153,3 @@ distributed-log-monitoring-tool/
     "retry_count": 3
   },
   "timestamp": "2026-03-18T15:30:45.123Z"
-}
-📊 Sample Metrics Response
-json
-{
-  "total_logs": 1250,
-  "by_level": {
-    "ERROR": 23,
-    "WARNING": 45,
-    "INFO": 1102,
-    "DEBUG": 80
-  },
-  "recent_errors": [
-    {
-      "time": "2026-03-18T15:30:45.123Z",
-      "message": "Database connection timeout"
-    }
-  ]
-}
-🧪 Testing
-Run the tests (when implemented):
-
-bash
-pytest tests/
-🔧 Future Improvements
-Add database backend (MongoDB/PostgreSQL) for persistent storage
-
-Implement real-time WebSocket notifications for critical errors
-
-Add authentication and rate limiting
-
-Create a simple frontend dashboard
-
-Integrate with monitoring tools (Prometheus/Grafana)
-
-Add log rotation and retention policies
-
-📁 Project Structure
-text
-distributed-log-monitoring-tool/
-├── app/
-│   ├── __init__.py
-│   ├── collector.py      # Log collection logic
-│   └── api.py            # Flask API endpoints
-├── logs/                  # Stored log files (gitignored)
-├── tests/                 # Unit tests
-├── requirements.txt       # Python dependencies
-├── Dockerfile            # Docker configuration
-├── docker-compose.yml    # Docker Compose setup
-└── README.md             # This file
-🤝 Contributing
-This is a personal learning project, but feedback and suggestions are welcome! Feel free to:
-
-🐛 Open an issue for bugs or ideas
-
-🍴 Fork the repository and experiment
-
-🔀 Share your improvements via pull requests
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-📬 Contact
-Diana Araujo
-Entry-Level Data Scientist | Data Analyst
-
-<p align="center"> <a href="https://www.linkedin.com/in/dianadaraujo"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white"> </a> <a href="https://github.com/dianadesiree"> <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github&logoColor=white"> </a> <a href="mailto:dianadaraujo78@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"> </a> </p><p align="center"> 📧 **Email:** dianadaraujo78@gmail.com<br> 🔗 **LinkedIn:** [linkedin.com/in/dianadaraujo](https://www.linkedin.com/in/dianadaraujo)<br> 🐙 **GitHub:** [github.com/dianadesiree](https://github.com/dianadesiree) </p>
-<p align="center"> ⭐️ **If you find this project helpful, please consider giving it a star!** ⭐️ </p> ```
