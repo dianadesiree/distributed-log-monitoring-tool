@@ -144,7 +144,7 @@ distributed-log-monitoring-tool/
 
 ---
 
-## 📥 Example Log Format
+## Example Log Format
 ```bash
 {
   "level": "ERROR",
@@ -156,4 +156,30 @@ distributed-log-monitoring-tool/
   },
   "timestamp": "2026-03-18T15:30:45.123Z"
 }
+ ```
+
+## 📊 Sample Metrics Response
+```bash
+{
+  "total_logs": 1250,
+  "by_level": {
+    "ERROR": 23,
+    "WARNING": 45,
+    "INFO": 1102,
+    "DEBUG": 80
+  },
+  "recent_errors": [
+    {
+      "time": "2026-03-18T15:30:45.123Z",
+      "message": "Database connection timeout"
+    }
+  ]
+}
+ ```
+
+## 🧪 Testing
+Run the tests (when implemented):
+
+```bash
+pytest tests/
  ```
