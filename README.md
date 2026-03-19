@@ -216,3 +216,15 @@ This is a personal learning project, but feedback and suggestions are welcome! F
 - Open an issue for bugs or ideas
 - Fork the repository and experiment
 - Share your improvements via pull requests
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📬 Contact
+
+Diana Araujo
+https://img.shields.io/badge/LinkedIn-Connect-blue
+https://img.shields.io/badge/GitHub-Follow-black
+
+**Note:** This tool is designed for educational purposes and learning about distributed systems, API design, and containerization. For production use, consider enterprise solutions like ELK Stack or Splunk.
