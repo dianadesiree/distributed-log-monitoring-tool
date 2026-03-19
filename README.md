@@ -139,3 +139,43 @@ distributed-log-monitoring-tool/
 | **/api/logs** | GET | Retrieve logs | date, level, limit (query params) |
 | **/api/metrics** | GET | Get log statistics | None |
 | **/api/logs/{date}** | DELETE | Delete logs for a date | Date in YYYY-MM-DD format |
+
+### 📥 Example Log Format
+
+```json
+{
+  "level": "ERROR",
+  "message": "Database connection timeout",
+  "source": "payment-service",
+  "context": {
+    "user_id": 12345,
+    "retry_count": 3
+  },
+  "timestamp": "2026-03-18T15:30:45.123Z"
+}
+
+### 📊 Example Log Format
+
+```json
+{
+  "total_logs": 1250,
+  "by_level": {
+    "ERROR": 23,
+    "WARNING": 45,
+    "INFO": 1102,
+    "DEBUG": 80
+  },
+  "recent_errors": [
+    {
+      "time": "2026-03-18T15:30:45.123Z",
+      "message": "Database connection timeout"
+    }
+  ]
+}
+
+### 🧪 Testing
+Run the tests (when implemented):
+
+```json
+pytest tests/
+
